@@ -1,0 +1,3 @@
+# gatsby-static-paths
+
+in progress...

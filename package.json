@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-static-paths",
+  "description": "implementing getStaticPaths like Next Js in Gatsby",
+  "author": "Gabriel Escabora <gabrielescabora@gmail.com>",
+  "version": "1.0.0",
+  "repository": "git@github.com:escabora/gatsby-static-paths.git",
+  "license": "MIT",
+  "keywords": [
+    "getStaticPaths",
+    "gatsby",
+    "plugin",
+    "gatsby-plugin",
+    "next.js",
+    "Routes Dinamics in Gatsby",
+    "Generate Routes Gatsby"
+  ],
+  "dependencies": {
+    "@babel/register": "^7.16.0"
+  }
+}
