@@ -23,7 +23,7 @@ exports.onCreatePage = async ({ page, actions }) => {
         actions.createPage({
           ...page,
           path: staticPath,
-          context: { staticProps: route.staticProps },
+          context: { staticProps: route?.staticProps },
         });
       }
     } catch (err) {
