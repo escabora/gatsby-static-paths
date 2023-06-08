@@ -1,6 +1,6 @@
 [![Version](https://img.shields.io/npm/v/gatsby-static-paths.svg)](https://www.npmjs.com/package/gatsby-static-paths)
 [![Downloads Total](https://img.shields.io/npm/dt/gatsby-static-paths.svg)](https://www.npmjs.com/package/gatsby-static-paths)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/escabora/gatsby-static-paths/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/escabora/gatsby-static-paths/blob/main/LICENSE.md)
 [![CodeFactor](https://www.codefactor.io/repository/github/escabora/gatsby-static-paths/badge)](https://www.codefactor.io/repository/github/escabora/gatsby-static-paths)
 
 # gatsby-static-paths
