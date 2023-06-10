@@ -29,7 +29,7 @@ module.exports = {
 }
 ```
 
-## Using
+In your component's page role `pages/articles.js`
 
 ```javascript
 const Articles = ({ pageContext }) => {
