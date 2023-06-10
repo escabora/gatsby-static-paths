@@ -11,5 +11,5 @@ exports.onCreatePage = async ({ page, actions }) => {
 
   const PageComponent = require(page.component);
   const getStaticPaths = PageComponent.getStaticPaths;
-  createDynamicPages(getStaticPaths);
+  createDynamicPages(getStaticPaths, actions, page);
 };
