@@ -27,4 +27,4 @@ const createDynamicPages = async (getStaticPaths, actions, page) => {
   }
 };
 
-export default createDynamicPages;
+module.exports = createDynamicPages;
