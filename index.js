@@ -14,7 +14,7 @@ const createDynamicPages = async (getStaticPaths, actions, page) => {
       const routes = await getStaticPaths();
       for (route of routes?.paths) {
         const staticPath = route.params.basePath + route.params.slug;
-        console.log('create page ', staticPath);
+        console.log('\x1b[32msuccess\x1b[0m', staticPath);
         actions.createPage({
           ...page,
           path: staticPath,
@@ -22,7 +22,7 @@ const createDynamicPages = async (getStaticPaths, actions, page) => {
         });
       }
     } catch (err) {
-      console.error('Error gatsby-plugin-static-paths', err);
+      console.error('\x1b[41mError gatsby-plugin-static-paths\x1b[0m', err);
     }
   }
 };
