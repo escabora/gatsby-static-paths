@@ -54,6 +54,9 @@ export const getStaticPaths = async () => {
 };
 ```
 
+See that if you want to send props via context to a page you just need to put the value in the `staticProps` key and in your component you receive it as `pageContext.staticProps`
+
+
 ## On build Time
 You will see the magic happen. The pages you passed as return from the getStaticPaths function will be listed.
 
