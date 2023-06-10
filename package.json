@@ -2,7 +2,7 @@
   "name": "gatsby-static-paths",
   "description": "Implementing getStaticPaths like Next Js in Gatsby",
   "author": "Gabriel Escabora <gabrielescabora@gmail.com>",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "repository": "git@github.com:escabora/gatsby-static-paths.git",
   "license": "MIT",
   "keywords": [
