@@ -5,7 +5,9 @@
 
 # gatsby-static-paths
 
-An implementation from getStaticPaths from Next.js to Gatsby via Plugin.
+If you're looking for a solution identical to getStaticPaths do next, you've come to the right place.
+
+This plugin is very simple to use. It generates static pages in Gatsby in a very simple way.
 
 ## Install
 
@@ -51,6 +53,11 @@ export const getStaticPaths = async () => {
   };
 };
 ```
+
+## On build Time
+You will see the magic happen. The pages you passed as return from the getStaticPaths function will be listed.
+
+![Shell Example](/shell-example.png)
 
 License
 -------
